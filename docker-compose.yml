@@ -1,0 +1,9 @@
+version: '2'
+
+services:
+  man:
+    build:
+      context: .
+      args :
+       JAR_FILE: target/calcul-facile-0.0.1-SNAPSHOT.jar
+    image: calcul-facile/v1
